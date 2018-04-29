@@ -1,0 +1,62 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    color: #414042;
+}
+
+h1{
+    font-weight:bold;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("https://media.gettyimages.com/photos/young-urban-man-eating-salad-picture-id909146082");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.right {
+	text-align: right;
+	
+
+}
+
+@media only screen and (max-width: 600px) {
+    .right {
+        text-align: left;
+    }
+}
+.left  {
+	text-align: left;
+}
+
+.center{
+	margin: 0 auto;
+	max-width: 600px;
+}
+
+.top{
+	padding-top: 15%;	
+}
+
+#bigbox{
+    max-width: 60%;
+    padding-top: 3%;
+    margin-left: -5%;
+}
+
+.top-div{
+    padding-top:5%;
+}
+
+.yellow {
+    background: rgba(241, 242, 242, 0.5); 
+
+}
