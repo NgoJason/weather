@@ -32,9 +32,9 @@ $(document).ready(function() {
 
           $("#icon").attr('src', image);
           $("#city").html(city);
-          $("#currentTemp").html(currentTemp + degree);
-          $("#highTemp").html(tempHigh + degree);
-          $("#lowTemp").html(tempLow + degree);
+          $("#currentTemp").html(currentFaren + degree);
+          $("#highTemp").html(tempHighFaren + degree);
+          $("#lowTemp").html(tempLowFaren + degree);
           $("#conditions").html(conditions);
           $("#description").html(description);
           
